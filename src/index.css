@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.text {
+  color: rgb(189, 90, 100);
+  margin: 30px;
+}
+
+li:hover {
+  color: rgb(189, 90, 100);
+} 
+
+.card {
+  transition: 0.4s ease-out;
+}
+
+.card:hover {
+		transform: rotate(180deg);
+}
+
+.card:hover p{
+  transform: rotate(-180deg);
+}
+
+.button {
+  transition: 0.5 ease-in-out;
+}
