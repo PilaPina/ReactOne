@@ -1,4 +1,7 @@
+
+// This is a component named Card
 const Card = () => { 
+    // `look` is an object that contains CSS properties for the card.
     const look:React.CSSProperties = {
         maxWidth: "30%",
         height: "200px",
@@ -10,13 +13,15 @@ const Card = () => {
         border: "5px",
         cursor: "pointer",
     }
+    // `text` is another object that contains CSS properties specifically for the text inside the card.
     const text:React.CSSProperties = {
         color: "white",
         fontSize: "40px"
     }
+    // The component returns a single `<div>` element with a paragraph `<p>` inside it.
     return (
         <div style={{...look, ...text}} className="card"><p>HOVER HERE</p></div>
-    )
+    )   // The style of the `<div>` is a combination of the `look` and `text` objects.
 }
 
 

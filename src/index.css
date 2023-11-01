@@ -17,6 +17,7 @@ code {
   margin: 30px;
 }
 
+/* hover for list in navbar*/
 li:hover {
   color: rgb(189, 90, 100);
 } 

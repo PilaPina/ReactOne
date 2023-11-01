@@ -1,4 +1,4 @@
-
+// Importing components from their respective files
 import Button from './Button';
 import Card from './Card';
 import Navbar from './Navbar';
@@ -8,10 +8,12 @@ import Navbar from './Navbar';
 // we import components from their location 
 // and we can use them like they were any other html element, 
 // except they start with a capital letter 
+
+// This is the main App component of our React application. The Navbar, Card and Button components are rendered within the main App component
 function App() {
   return (
     <> 
-      <Navbar></Navbar>
+      <Navbar></Navbar>   
       <br></br>
       <Card />
       <br></br>
@@ -27,8 +29,9 @@ function App() {
   );
 }
 
+// The App component is exported for use in other parts of the application
 export default App;
 
 // There has to be a div around the whole thing, unwrapped divs can't be adjacent to one another
-// If you feel like your code is nothing but divs inside of divs
-// you can use the <> </> to wrap, like a div with no name. 
+// If you feel like your code is nothing but divs inside of divs you can use the <> </> to wrap, like a div with no name. 
+// Basically: The <> and </> are shorthand for React Fragments which let you group a list of children without adding extra nodes to the DOM.

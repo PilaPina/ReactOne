@@ -1,4 +1,4 @@
-
+// // Define a type `Props` for the properties that the `Button` component can accept.
 type Props = {
     color?:string   // this is if we want different colors, it's a parameter, but it complains at first and then we specify color. Also put {color} inside the const Button 
                     // we define the color for buttons int the app.tsx 
@@ -6,6 +6,7 @@ type Props = {
                     // the ? tells us the color is an optional thing
     radius?:number
 } 
+// We added more buttons into app.tsx with different styles, we use props for that (same as html attributes, like href, class, id etc)
 
 const Button  = ({color, radius}:Props) => {   // have to add color and radius in the button variable
     const styles = {    // this needs to be an object. Here I am adding more styles to the button below. 
@@ -18,10 +19,12 @@ const Button  = ({color, radius}:Props) => {   // have to add color and radius i
         margin: "20px",
         cursor: "pointer",
     }  
+    // Define a function `handleClick` that will be called when the button is clicked.
     const handleClick = () => {
         console.log("This Button Was Clicked!");
     }
-// adding more buttons and having them have different styles, we use props (same as html attributes, like href, class, id etc)
+
+    // Return a button element with the defined styles and click handler.
     return (
     <>
      <button style={styles} className="button" onClick={handleClick}>CLICK</button> 
