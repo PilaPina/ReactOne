@@ -3,6 +3,7 @@ import Button from './Button';
 import Card from './Card';
 import Navbar from './Navbar';
 
+
 //This function below is a component. 
 //Any function that returns JSX is a component in React. 
 // we import components from their location 
@@ -15,7 +16,7 @@ function App() {
     <> 
       <Navbar></Navbar>   
       <br></br>
-      <Card />
+      <Card></Card>
       <br></br>
       <h2 className="text">CLICKING BUTTONS WILL OUTPUT IN CONSOLE</h2>
       <div>

@@ -17,6 +17,10 @@ code {
   margin: 30px;
 }
 
+p {
+  padding: 40px;
+}
+
 /* hover for list in navbar*/
 li:hover {
   color: rgb(189, 90, 100);
@@ -24,16 +28,25 @@ li:hover {
 
 .card {
   transition: 0.4s ease-out;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .card:hover {
-		transform: rotate(180deg);
+		transform: rotate(-180deg);
 }
 
 .card:hover p{
-  transform: rotate(-180deg);
+  transform: rotate(180deg);
 }
 
 .button {
   transition: 0.5 ease-in-out;
+}
+
+.cardImage {
+  width: 200px;
+  border-radius: 40px;
+  position: relative;
 }

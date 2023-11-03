@@ -1,4 +1,5 @@
-// This is a component named Navbar
+
+// This is a component named Navbar 
 const Navbar = () => {
     const look:React.CSSProperties = {
         display: "flex",
@@ -14,11 +15,12 @@ const Navbar = () => {
         // and TypeScript will check that any object you assign to a React.CSSProperties variable has properties that are known CSS properties, 
         // and that those properties’ values are of the correct type.
         // For example, if you try to assign an unknown property or a value of the wrong type to the look variable, 
-        // TypeScript will give you an error. This helps catch potential bugs in your code.
-    }
+        // TypeScript will give you an error. This helps catch potential bugs in your code.  
+      }
     return ( 
         // Navbar below  
       <>   
+    
       <ul style={look}>  
         <li>COLOR</li>
         <li>CHANGE</li>
