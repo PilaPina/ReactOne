@@ -18,7 +18,7 @@ code {
 }
 
 p {
-  padding: 40px;
+  padding: 5px;
 }
 
 /* hover for list in navbar*/
@@ -49,4 +49,9 @@ li:hover {
   width: 200px;
   border-radius: 40px;
   position: relative;
+}
+.infocardcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }

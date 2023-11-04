@@ -23,7 +23,6 @@ const Button  = ({color, radius}:Props) => {   // have to add color and radius i
     const handleClick = () => {
         console.log("This Button Was Clicked!");
     }
-
     // Return a button element with the defined styles and click handler.
     return (
     <>

@@ -20,12 +20,11 @@ const Navbar = () => {
     return ( 
         // Navbar below  
       <>   
-    
       <ul style={look}>  
-        <li>COLOR</li>
-        <li>CHANGE</li>
-        <li>ON</li>
-        <li>HOVER</li>
+        <li>IS</li>
+        <li>WATER</li>
+        <li>WET?</li>
+        <li> </li>
       </ul>
       </>
     )
