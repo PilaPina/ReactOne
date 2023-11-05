@@ -15,10 +15,13 @@ code {
 .text {
   color: rgb(189, 90, 100);
   margin: 30px;
+  text-align: center;
 }
 
-p {
-  padding: 5px;
+.infocardsText {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 0px;
 }
 
 /* hover for list in navbar*/
@@ -46,12 +49,38 @@ li:hover {
 }
 
 .cardImage {
-  width: 200px;
-  border-radius: 40px;
-  position: relative;
+  width: 250px;
+  border-radius: 30px;
+  padding-bottom: 25px;
 }
-.infocardcontainer {
+
+.infoCardContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; 
+}
+
+/*Navbar links. Didn't want the underline and keep the color black*/
+a:link, a:visited {
+  text-decoration: none;
+  color: black;
+}
+/*Navbar links. Color change on hover*/
+a:hover {
+  color: rgb(189, 90, 100);
+}
+
+.bottomContainer {
+  padding: "20px";
 }

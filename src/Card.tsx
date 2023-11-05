@@ -4,21 +4,24 @@ import MyImage from "./images/mrjn-photography-YpZ2cj4s0oo-unsplash.jpg"
 const Card: React.FC = ()  => { 
     // `look` is an object that contains CSS properties for the card.
     const look:React.CSSProperties = {
-        width: "600px",
-        height: "200px",
+        width: "400px",
+        height: "400px",
         borderRadius: "30px",
         padding: "30px",
-        margin: "30px",
+        margin: "0px",
         backgroundColor: "rgb(131, 119, 209)",
         borderColor: "rgb(123, 0, 12)",
         border: "5px",
         cursor: "pointer",
+  
     }
  
     // `text` is another object that contains CSS properties specifically for the text inside the card.
     const text:React.CSSProperties = {
         color: "white",
-        fontSize: "40px"
+        fontSize: "40px",
+        margin: "0px",
+        padding: "0px",
     }
     // The component returns a single `<div>` element with a paragraph `<p>` inside it.
     return (

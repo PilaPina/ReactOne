@@ -4,12 +4,12 @@ const Navbar = () => {
     const look:React.CSSProperties = {
         display: "flex",
         flexDirection: "row",
-        justifyContent: "space-between",
+        justifyContent: "space-evenly",
         padding: "25px",
         listStyle: "none",
         fontSize: "30px",
         cursor: "pointer",
-        backgroundColor: "rgb(147, 190, 223)", 
+        backgroundColor: "rgba(147, 190, 223, 0.2)", 
         // React.CSSProperties is an interface from the React library that represents a CSS style object.
         // This interface includes all the CSS properties you might use, 
         // and TypeScript will check that any object you assign to a React.CSSProperties variable has properties that are known CSS properties, 
@@ -18,13 +18,15 @@ const Navbar = () => {
         // TypeScript will give you an error. This helps catch potential bugs in your code.  
       }
     return ( 
-        // Navbar below  
+        // Navbar below - I got a warning when adding target blank in link. It poses a security risk. Adding rel="noopener noreferrer" fixes that. 
       <>   
       <ul style={look}>  
-        <li>IS</li>
-        <li>WATER</li>
-        <li>WET?</li>
-        <li> </li>
+        <li>React:</li>
+        <li><a href="https://react.dev/learn/your-first-component" target="_blank" rel="noopener noreferrer">Components</a></li>  
+        <li><a href="https://react.dev/learn/passing-props-to-a-component" target="_blank" rel="noopener noreferrer">Props</a></li>
+        <li>State</li>
+        <li>Fetch</li>
+        <li>Styled Components</li>
       </ul>
       </>
     )

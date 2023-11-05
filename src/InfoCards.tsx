@@ -1,6 +1,10 @@
-import imgSrc from './images/benjamin-lehman-k8xJOnA3zYM-unsplash (1).jpg'
 
-const InfoCards: React.FC<{text: string}> = ({text}) => {
+type InfoCardsProps = {
+  text: string;
+  imageSrc: string;
+}
+
+const InfoCards = ({ text, imageSrc }: InfoCardsProps) => {
     const style = {
       width: "300px",
       height: "500px",
@@ -11,13 +15,13 @@ const InfoCards: React.FC<{text: string}> = ({text}) => {
       cursor: "pointer",
     }
     const textStyle = {
-      color:"black",
+      color:"white",
       fontSize: "20px",
     }
     return (
       <div style={style} className="card">
-        <p style={textStyle}>{text}</p>
-        <img src={imgSrc} alt="" className="cardImage" />
+        <p className="infocardsText" style={textStyle}>{text}</p>
+        <img src={imageSrc} alt="" className="cardImage" />
       </div>
     )
   }
