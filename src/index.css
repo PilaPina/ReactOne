@@ -58,17 +58,20 @@ li:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin-bottom: 50px;
 }
 
 .buttonContainer {
   display: flex;
   flex-direction: column;
+  background-color: rgba(147, 190, 223, 0.2);
 }
 
 .buttonDiv {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly; 
+  margin-bottom: 20px;
 }
 
 /*Navbar links. Didn't want the underline and keep the color black*/
@@ -82,5 +85,8 @@ a:hover {
 }
 
 .bottomContainer {
-  padding: "20px";
+  padding-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }

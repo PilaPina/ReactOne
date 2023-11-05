@@ -28,6 +28,8 @@ function App() {
       </div>
       <div className="bottomContainer">
         <Card></Card>
+        <Card></Card>
+        <Card></Card>
       </div>  
     </>
   );
