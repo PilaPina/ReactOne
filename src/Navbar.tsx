@@ -19,6 +19,7 @@ const Navbar = () => {
       }
     return ( 
         // Navbar below - I got a warning when adding target blank in link. It poses a security risk. Adding rel="noopener noreferrer" fixes that. 
+        // I've added the links to the topics I've added to this project.  I'll continue to add the links as I add `state`, `fetch` and `styled components` 
       <>   
       <ul style={look}>  
         <li>React:</li>

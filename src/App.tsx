@@ -3,6 +3,7 @@ import Button from './Button';
 import Card from './Card';
 import Navbar from './Navbar';
 import InfoCards from './InfoCards';
+// Importing images from their respective files
 import imageSrc1 from './images/3.jpg';
 import imageSrc2 from './images/4.jpg';
 import imageSrc3 from './images/5.jpg';
@@ -10,13 +11,14 @@ import image1 from './images/1.jpg';
 import image2 from './images/2.jpg';
 import image6 from './images/6.jpg';
 
-// This is the main App component of our React application. The Navbar, Card and Button components are rendered within the main App component
+// This is the main App component of our React application. 
+// The Navbar, InfoCards, Card and Button components are rendered within the main App component with different props.
 function App() {
   return (
     <> 
       <Navbar></Navbar>   
-      <br></br>
-      <div className="infoCardContainer">
+      <br></br>  
+      <div className="infoCardContainer">  
         <InfoCards text="Attempting Props for these components." imageSrc={imageSrc1} />
         <InfoCards text="CSS animation creates the rotation." imageSrc={imageSrc2} />
         <InfoCards text="The text flips over too so it's still readable." imageSrc={imageSrc3} />
