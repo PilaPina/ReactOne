@@ -10,7 +10,7 @@ const Card: React.FC <props> = ({image}) =>{
         width: "400px",
         height: "500px",
         borderRadius: "30px",
-        backgroundColor: "rgb(131, 119, 209)",
+        backgroundColor: "rgba(131, 119, 209, 0.8)",
         cursor: "pointer",
     }
  

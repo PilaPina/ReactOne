@@ -11,13 +11,16 @@ const InfoCards = ({ text, imageSrc }: InfoCardsProps) => {
       height: "500px",
       border: "2px",
       borderRadius: "30px",
-      backgroundColor: "rgb(131, 119, 209)",
+      backgroundColor: "rgba(131, 119, 209, 0.8)",
       margin: "10px",
       cursor: "pointer",
     }
     const textStyle = {
-      color:"white",
-      fontSize: "20px",
+      color:"rgb(35, 9, 21)",
+      fontSize: "25px",
+      paddingLeft: "30px",
+      paddingRight: "15px",
+      paddingBottom: "0px",
     }
     return (  
       <div style={style} className="card">

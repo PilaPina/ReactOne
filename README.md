@@ -16,5 +16,4 @@ For Guide 4 (the third React guide):
 - Added Count as State to the Buttons. 
 - Added link to 'State' in the Navbar. 
 - Added onMouseEnter/onMouseLeave to buttons. When mouse enters it changes color, when mouse leaves it reverts to it's original color.
-- 
 
