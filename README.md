@@ -5,6 +5,7 @@ For the first guide in the React Modules Component Guide followed Smari's tutori
 
 Continued working in this Repo for React Module Props Guide. 
 - Customized components with Props.
-- Changed the Navbar and added links. 
-- InfoCards Components use Props
-- Button Components use Props
+- Changed the Navbar and added links to their respective topic. 
+- InfoCards and Card Components now use Props
+- Button Components use Props and added a button and changed CSS. 
+- Fixed CSS issues. 

@@ -15,9 +15,10 @@ const Button  = ({color, radius}:Props) => {   // have to add color and radius i
         height: "100px",
         width: "100px",
         fontSize: "20px",
-        color: "white",
+        color: "rgb(35, 9, 21)",
         margin: "20px",
         cursor: "pointer",
+        borderStyle: "hidden",
     }  
     // Define a function `handleClick` that will be called when the button is clicked.
     const handleClick = () => {

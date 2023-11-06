@@ -3,8 +3,12 @@ import Button from './Button';
 import Card from './Card';
 import Navbar from './Navbar';
 import InfoCards from './InfoCards';
-import imageSrc from './images/benjamin-lehman-k8xJOnA3zYM-unsplash (1).jpg'
-
+import imageSrc1 from './images/3.jpg';
+import imageSrc2 from './images/4.jpg';
+import imageSrc3 from './images/5.jpg';
+import image1 from './images/1.jpg';
+import image2 from './images/2.jpg';
+import image6 from './images/6.jpg';
 
 // This is the main App component of our React application. The Navbar, Card and Button components are rendered within the main App component
 function App() {
@@ -13,28 +17,27 @@ function App() {
       <Navbar></Navbar>   
       <br></br>
       <div className="infoCardContainer">
-        <InfoCards text="Attempting Props for these components." imageSrc={imageSrc} />
-        <InfoCards text="CSS animation creates the rotation." imageSrc={imageSrc} />
-        <InfoCards text="The text flips over too so it's still readable." imageSrc={imageSrc} />
+        <InfoCards text="Attempting Props for these components." imageSrc={imageSrc1} />
+        <InfoCards text="CSS animation creates the rotation." imageSrc={imageSrc2} />
+        <InfoCards text="The text flips over too so it's still readable." imageSrc={imageSrc3} />
       </div>  
       <div className='buttonContainer'>
         <h2 className="text">These buttons are customized through props. They also log the clicks in the console.</h2>
         <div className='buttonDiv'>
           <Button color="rgb(147, 190, 223)" radius={50}></Button>
-          <Button color="rgb(142, 249, 243)" radius={15}></Button>
+          <Button color="rgb(142, 249, 243)" radius={30}></Button>
           <Button color="rgb(94, 252, 141)"></Button>
+          <Button color="rgba(94, 69, 141, 0.6)" radius={18}></Button>
           <Button color="" radius={36}></Button>  {/* leave it empty bc we want to use the default color*/}
         </div>
       </div>
       <div className="bottomContainer">
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
+        <Card image={image1}></Card>
+        <Card image={image2}></Card>
+        <Card image={image6}></Card>
       </div>  
     </>
   );
 }
-
-
 // The App component is exported for use in other parts of the application
 export default App;

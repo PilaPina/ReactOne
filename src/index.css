@@ -36,11 +36,15 @@ li:hover {
   justify-content: space-around;
 }
 
-.card:hover {
+.card:hover, .cardBottom:hover {
 		transform: rotate(-180deg);
 }
 
-.card:hover p{
+.card:hover p {
+  transform: rotate(180deg);
+}
+
+.cardBottom:hover p {
   transform: rotate(180deg);
 }
 
@@ -50,8 +54,8 @@ li:hover {
 
 .cardImage {
   width: 250px;
+  height: 300px;
   border-radius: 30px;
-  padding-bottom: 25px;
 }
 
 .infoCardContainer {
@@ -84,8 +88,14 @@ a:hover {
   color: rgb(189, 90, 100);
 }
 
+.cardBottom {
+  text-align: center;
+  transition: 0.4s ease-out;
+}
+/*Container for the bottom Cards*/
 .bottomContainer {
   padding-top: 60px;
+  padding-bottom: 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;

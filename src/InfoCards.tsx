@@ -1,4 +1,3 @@
-
 type InfoCardsProps = {
   text: string;
   imageSrc: string;
