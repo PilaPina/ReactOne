@@ -25,7 +25,7 @@ const Navbar = () => {
         <li>React:</li>
         <li><a href="https://react.dev/learn/your-first-component" target="_blank" rel="noopener noreferrer">Components</a></li>  
         <li><a href="https://react.dev/learn/passing-props-to-a-component" target="_blank" rel="noopener noreferrer">Props</a></li>
-        <li>State</li>
+        <li><a href="https://react.dev/learn/state-as-a-snapshot" target="_blank" rel="noopener noreferrer">State</a></li>
         <li>Fetch</li>
         <li>Styled Components</li>
       </ul>

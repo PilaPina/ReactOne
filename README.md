@@ -11,3 +11,10 @@ Continued working in this Repo for React Module Props Guide.
 - Button Components use Props and added a button and changed CSS. 
 - Fixed CSS issues. 
 - Changed comments on code to reflect changes. 
+
+For Guide 4 (the third React guide):
+- Added Count as State to the Buttons. 
+- Added link to 'State' in the Navbar. 
+- Added onMouseEnter/onMouseLeave to buttons. When mouse enters it changes color, when mouse leaves it reverts to it's original color.
+- 
+

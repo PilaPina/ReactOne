@@ -18,38 +18,24 @@ code {
   text-align: center;
 }
 
+/* hover for list in navbar*/
+li:hover {
+  color: rgb(189, 90, 100);
+} 
+
+
+/* CSS for the cards*/
 .infocardsText {
   padding-left: 20px;
   padding-right: 20px;
   margin-bottom: 0px;
 }
 
-/* hover for list in navbar*/
-li:hover {
-  color: rgb(189, 90, 100);
-} 
-
 .card {
   transition: 0.4s ease-out;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-}
-
-.card:hover, .cardBottom:hover {
-		transform: rotate(-180deg);
-}
-
-.card:hover p {
-  transform: rotate(180deg);
-}
-
-.cardBottom:hover p {
-  transform: rotate(180deg);
-}
-
-.button {
-  transition: 0.5 ease-in-out;
 }
 
 .cardImage {
@@ -65,17 +51,40 @@ li:hover {
   margin-bottom: 50px;
 }
 
+/* animations for cards*/
+.card:hover, .cardBottom:hover {
+		transform: rotate(-180deg);
+}
+
+.card:hover p {
+  transform: rotate(180deg);
+}
+
+.cardBottom:hover p {
+  transform: rotate(180deg);
+}
+
+
+
+/*container for the Buttons+Counters+text*/
 .buttonContainer {
   display: flex;
   flex-direction: column;
   background-color: rgba(147, 190, 223, 0.2);
 }
 
+/*container for the Buttons+Counters*/
 .buttonDiv {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly; 
   margin-bottom: 20px;
+  align-items: center;
+}
+
+/*Class for the Button Counter*/
+.counter {
+  text-align: center;
 }
 
 /*Navbar links. Didn't want the underline and keep the color black*/
@@ -83,15 +92,12 @@ a:link, a:visited {
   text-decoration: none;
   color: black;
 }
+
 /*Navbar links. Color change on hover*/
 a:hover {
   color: rgb(189, 90, 100);
 }
 
-.cardBottom {
-  text-align: center;
-  transition: 0.4s ease-out;
-}
 /*Container for the bottom Cards*/
 .bottomContainer {
   padding-top: 60px;
@@ -99,4 +105,9 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.cardBottom {
+  text-align: center;
+  transition: 0.4s ease-out;
 }

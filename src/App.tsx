@@ -24,7 +24,7 @@ function App() {
         <InfoCards text="The text flips over too so it's still readable." imageSrc={imageSrc3} />
       </div>  
       <div className='buttonContainer'>
-        <h2 className="text">These buttons are customized through props. They also log the clicks in the console.</h2>
+        <h2 className="text">Buttons are customized with Props and use State for counting the clicks!</h2>
         <div className='buttonDiv'>
           <Button color="rgb(147, 190, 223)" radius={50}></Button>
           <Button color="rgb(142, 249, 243)" radius={30}></Button>
