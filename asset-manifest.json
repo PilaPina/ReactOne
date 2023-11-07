@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReactOne/static/css/main.d619a878.css",
-    "main.js": "/ReactOne/static/js/main.3d696085.js",
+    "main.css": "/ReactOne/static/css/main.09b48421.css",
+    "main.js": "/ReactOne/static/js/main.66a4e136.js",
     "static/js/787.0d9f52ed.chunk.js": "/ReactOne/static/js/787.0d9f52ed.chunk.js",
     "static/media/5.jpg": "/ReactOne/static/media/5.2b1914a6815fff6a5fa9.jpg",
     "static/media/1.jpg": "/ReactOne/static/media/1.b633c0358024a87eda86.jpg",
@@ -10,12 +10,12 @@
     "static/media/3.jpg": "/ReactOne/static/media/3.265b8df4de8572d6aeba.jpg",
     "static/media/6.jpg": "/ReactOne/static/media/6.0cbdea70bdae43a8ace4.jpg",
     "index.html": "/ReactOne/index.html",
-    "main.d619a878.css.map": "/ReactOne/static/css/main.d619a878.css.map",
-    "main.3d696085.js.map": "/ReactOne/static/js/main.3d696085.js.map",
+    "main.09b48421.css.map": "/ReactOne/static/css/main.09b48421.css.map",
+    "main.66a4e136.js.map": "/ReactOne/static/js/main.66a4e136.js.map",
     "787.0d9f52ed.chunk.js.map": "/ReactOne/static/js/787.0d9f52ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d619a878.css",
-    "static/js/main.3d696085.js"
+    "static/css/main.09b48421.css",
+    "static/js/main.66a4e136.js"
   ]
 }
