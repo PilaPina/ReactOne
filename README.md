@@ -1,8 +1,12 @@
+This repository and live site are being updated and added to in relation to the React Guide on which I am currently working.
+
+Guide 2: Components. 
 For the first guide in the React Modules Component Guide followed Smari's tutorial about components and then added to it, changed and created more components. 
 - Added Card and Navbar. 
 - When you click the buttons they will log text in the console. 
 - For fun I also added some CSS animation, hover and transform. 
 
+Guide 3: Props. 
 Continued working in this Repo for React Module Props Guide. 
 - Customized components with Props.
 - Changed the Navbar and added links to their respective topic. 
@@ -12,8 +16,8 @@ Continued working in this Repo for React Module Props Guide.
 - Fixed CSS issues. 
 - Changed comments on code to reflect changes. 
 
-For Guide 4 (the third React guide):
+For Guide 4: State. 
 - Added Count as State to the Buttons. 
 - Added link to 'State' in the Navbar. 
-- Added onMouseEnter/onMouseLeave to buttons. When mouse enters it changes color, when mouse leaves it reverts to it's original color.
+- Added onMouseEnter/onMouseLeave to buttons. When mouse enters it changes color, when mouse leaves it reverts to it's original color.(It also logs it in console).
 
